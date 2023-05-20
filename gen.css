@@ -1,0 +1,124 @@
+*{
+    background-color: #eeeff300 !important;
+    }
+    
+    input, label {
+        display:block;
+    
+    }
+    
+    div {
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    select {
+        margin: 5px 0px;
+        padding: 5px;
+    }
+    
+    .canvas {
+        writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: fieldtext;
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: auto;
+        box-sizing: border-box;
+        align-items: center;
+        white-space: pre;
+        -webkit-rtl-ordering: logical;
+        background-color: field;
+        cursor: default;
+        margin: 0em;
+        border: 2px solid #EA7519;
+background-color: white !important;
+      border-radius: 10px ;
+        filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.25));
+        max-width: 90%;
+    }
+    
+    #right-column {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: -0.5rem;
+    }
+
+@media screen and (max-width:600px) {
+    .ml{
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    }
+    .lm{
+        margin-left: 5%;
+    }
+    #right-column {
+        margin-left: 5%;
+    }
+
+}
+
+
+option{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu Mono', monospace;color: #FFFDFD;
+}
+
+select{
+    background: #b86800d2 !important;
+    color: white;
+    font-weight: 600;
+    font-family: 'Ubuntu Mono', monospace;
+    border-radius: 5px;
+    width: 120%;
+    height: 30px;
+    cursor: pointer;
+}
+
+label{
+    font-family: 'Ubuntu Mono', monospace;
+font-style: normal;
+font-weight: 800;
+font-size: 1rem;
+line-height: 25px;/* or 157% */
+color: #EA7519;
+letter-spacing: 0.2px;
+}
+
+h1{
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+    color: white;
+    letter-spacing: 0.2px;
+}
+
+
+
+.clear{
+    border: 2px solid #EA7519;
+    background: #ffffff00;
+    color: #EA7519;
+    font-weight: 200;
+    font-family: tur;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;  
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.ml{
+    margin-top: -3rem;
+}

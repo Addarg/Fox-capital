@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Fox Capital</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./gen.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon"
+    href="https://media.discordapp.net/attachments/874259441384574976/1099697023244042241/image.png?width=123&height=123">
+
+</head>
+
+<body>
+    <img class="bg"
+    src="https://cdn.discordapp.com/attachments/874259441384574976/1099693669109481574/image.png"></img>
+    <div style="display: flex">
+        <h1>Create Your Forever Fox</h1>
+    </div>
+    <div class="ml" style="display: flex">
+        <div class="lm">
+            <canvas class="canvas" id="canvas" width="640" height="640"></canvas>
+            <input type="button" id="clear" class="clear" value="Clear">
+        </div>
+        <div id="right-column">
+            <!-- BACKGROUND INPUT -->
+            <div class="backgroundInput">
+                <label for="background">Background:</label>
+                <select id="background">
+                    <option value="" disabled="disabled" selected="selected">
+                        Please Select
+                    </option>
+                    <option value="brown">
+                        Blue
+                    </option>
+                    <option value="chinese">
+                        Flowers
+                    </option>
+                    <option value="clay">
+                        Forest
+                    </option>
+                    <option value="cloudy">
+                        Graveyard
+                    </option>
+                    <option value="waves">
+                        Green
+                    </option>
+                    <option value="maroon">
+                        Hippy
+                    </option>
+                    <option value="Mountains">
+                        Underwater
+                    </option>
+                    <option value="Mountains1">
+                        Sky
+                    </option>
+                    <option value="Mountains2">
+                        Shrooms
+                    </option>
+
+                </select>
+            </div>
+
+            <!--Base INPUT -->
+            <div class="skinInput">
+                <label for="skin">Base:</label>
+                <select id="skin">
+                    <option value="" disabled="disabled" selected="selected">
+                        Please Select
+                    </option>
+                    <option value="none">
+                        Base 1
+                    </option>
+                    <option value="skin1">
+                        Base 2
+                    </option>
+                    <option value="skin2">
+                        Base 3
+                    </option>
+                    <option value="skin3">
+                        Base 4
+                    </option>
+                    <option value="skin4">
+                        Base 5
+                    </option>
+                    <option value="skin5">
+                        Base 6
+                    </option>
+                    <option value="skin6">
+                        Base 7
+                    </option>
+                    <option value="skin7">
+                        Base 8
+                    </option>
+                    <option value="skin8">
+                        Base 9
+                    </option>
+                    <option value="skin9">
+                        Base 10
+                    </option>
+                </select>
+            </div>
+            <!-- EYES INPUT -->
+            <div class="eyesInput">
+                <label for="eyes">Skins:</label>
+                <select id="eyes">
+                    <option value="" disabled="disabled" selected="selected">
+                        Please Select
+                    </option>
+                    <option value="none">
+                        Beach Shirt
+                    </option>
+                    <option value="eyes1">
+                        Black Puffer
+                    </option>
+                    <option value="eyes2">
+                        Black Tshirt
+                    </option>
+                    <option value="eyes3">
+                        Bling
+                    </option>
+                    <option value="eyes4">
+                        Dork
+                    </option>
+                    <option value="eyes5">
+                        Fc Tshirt
+                    </option>
+                    <option value="eyes6">
+                        FCPD
+                    </option>
+                    <option value="eyes7">
+                        Goth
+                    </option>
+                    <option value="eyes8">
+                        Hoodie
+                    </option>
+                    <option value="eyes9">
+                        Jersey
+                    </option>
+                </select>
+            </div>
+            <!-- EYEBROWS -->
+            <div class="eyebrowsInput">
+                <label for="eyebrows">Eyes:</label>
+                <select id="eyebrows">
+                    <option value="" disabled="disabled" selected="selected">
+                        Please Select
+                    </option>
+                    <option value="none">
+                        Dazed
+                    </option>
+                    <option value="eyebrows1">
+                        Eyepiece
+                    </option>
+                    <option value="eyebrows2">
+                        Gold Eye
+                    </option>
+                    <option value="eyebrows3">
+                        Haunted Eye
+                    </option>
+                    <option value="eyebrows4">
+                        Heart Eye
+                    </option>
+                    <option value="eyebrows5">
+                        Pirate Eye
+                    </option>
+                    <option value="eyebrows6">
+                        Robot Eye
+                    </option>
+                    <option value="eyebrows7">
+                        serious Eye
+                    </option>
+                </select>
+            </div>
+            <!-- MOUTH -->
+            <div class="mouthInput">
+                <label for="mouth">Mouth</label>
+                <select id="mouth">
+                    <option value="" disabled="disabled" selected="selected">
+                        Please Select
+                    </option>
+                    <option value="none">
+                        Bone
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%201.png"
+                        value="mouth1">
+                        Bubble
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%202.png"
+                        value="mouth2">
+                        Cigar
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth3">
+                        Cigarette
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth4">
+                        Fish
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth5">
+                        Grill
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth6">
+                        Normal
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth7">
+                        Pizza
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth8">
+                        steak
+                    </option>
+                    <option
+                        data-img="https://raw.githubusercontent.com/itswilliam7/pixel-people-image-layers/master/Mouth/common/Mouth%203.png"
+                        value="mouth8">
+                        tnt
+                    </option>
+                </select>
+            </div>
+
+         
+            <div class="faceItemsInput">
+                <label for="faceitems">Head</label>
+                <select id="faceitems">
+                    <option value="" disabled="disabled" selected="selected">
+                        Please Select
+                    </option>
+                    <option value="none">
+                     Afro
+                    </option>
+                    <option value="bluebandana">
+                       Arrow
+                    </option>
+                    <option value="greenbandana">
+                      Cowboy
+                    </option>
+                    <option value="redbandana">
+                       Dino Hat
+                    </option>
+                    <option value="cigarette">
+                        Golden Unicorn
+                    </option>
+                    <option value="blunt">
+                       Green Beanie
+                    </option>
+                    <option value="pipe">
+                       hachimaki
+                    </option>
+
+
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="./gen.js"></script>
+</body>
+
+</html>
